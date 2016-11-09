@@ -1,0 +1,84 @@
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEditor.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEngine.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEngine.xml
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEditor.xml
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\obj\Debug\Assembly-CSharp.dll
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\obj\Debug\Assembly-CSharp.pdb
+C:\Users\mateo\Desktop\PROYECTO UNITY 2D\prueba\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\obj\Debug\Assembly-CSharp.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEditor.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEngine.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEngine.xml
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEditor.xml
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\sp\Documents\Unity Projects\AppStoreGame\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Elemental 3\Desktop\LogicTerminal\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Elemental 3\Desktop\LogicTerminal\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Elemental 3\Desktop\LogicTerminal\obj\Debug\Assembly-CSharp.dll
+C:\Users\Elemental 3\Desktop\LogicTerminal\obj\Debug\Assembly-CSharp.pdb
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEditor.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEngine.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEngine.xml
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEditor.xml
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\obj\Debug\Assembly-CSharp.dll
+C:\Users\sp\Documents\Unity Projects\LogicTerminal\obj\Debug\Assembly-CSharp.pdb
