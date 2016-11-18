@@ -7,7 +7,6 @@ public class Terminal : MonoBehaviour
 
 	public GameObject puerta;
 	bool isInside = false;
-	bool isActive;
 	public Switch Switch;
 	public GameObject ActionButton;
 	public GameObject Trap;
@@ -26,13 +25,12 @@ public class Terminal : MonoBehaviour
 		_rend = GetComponent<SpriteRenderer> ();
 
 		ActionButton = GameObject.FindGameObjectWithTag ("BotonUsar");
-		isActive = false;
 		LaserActivo = true;
 	}
 	
 	void Update () 
 	{
-		if (isActive) {
+        if (Switch.IsOpen) {
 			_rend.sprite = Activo;
 		} else {
 			_rend.sprite = Inactivo;
@@ -62,11 +60,7 @@ public class Terminal : MonoBehaviour
 	{
 		if (isInside) {
 			Switch.SwitchDoor ();
-			if (isActive) {
-				isActive = false;
-			} else {
-				isActive = true;
-			}
+
 			if (HayTrampa) {
 				Destroy (Trap);
 			}
