@@ -10,10 +10,13 @@ public class mover : MonoBehaviour
 	bool _ladder;
 	int _dirx;
 	int _diry;
+	public bool HasCard;
 
 	public bool CanEnter;
 	public float Velocidad = 6;
 	public float JumpForce = 300;
+
+
 
 	void Start () 
 	{
@@ -23,6 +26,7 @@ public class mover : MonoBehaviour
 		_walking = true;
 		CanEnter = false;
 		_ladder = false;
+		HasCard = false;
 
 		_dirx = 0;
 		_diry = 0;
@@ -55,6 +59,9 @@ public class mover : MonoBehaviour
 		if(coll.collider.tag == "Platform"){
 			Debug.Log ("Colision");
 			_canJump = true;
+		}
+		if(coll.collider.tag == "Access Card"){
+			HasCard = true;
 		}
 	}
 

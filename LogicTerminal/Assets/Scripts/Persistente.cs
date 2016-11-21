@@ -27,7 +27,6 @@ public class Persistente : MonoBehaviour
 
 	void Start () 
     {
-           
 	}
 	
 	void Update () 
@@ -43,6 +42,8 @@ public class Persistente : MonoBehaviour
         DatosDeJugador datos = new DatosDeJugador();
         datos.Niveles = Niveles;
         datos.Nombre  = Nombre;
+
+	
 
         bf.Serialize(archivo, datos);
         archivo.Close();
