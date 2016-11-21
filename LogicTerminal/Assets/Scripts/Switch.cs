@@ -3,22 +3,26 @@ using System.Collections;
 
 public class Switch : MonoBehaviour 
 {
-	public bool IsOpen = false;
-	public float DistVertical = 2.5f;
-	public float DistHorizontal = 2.5f; 
-		
+    Animator _anim;
+
+    void Start()
+    {
+        _anim = GetComponent<Animator>();
+    }
 
 
-	public void SwitchDoor()
+    public void HacerSwitch(bool estaActivo)
 	{
-		if(IsOpen)
-		{
-			transform.position = new Vector3 (transform.position.x-DistHorizontal,transform.position.y-DistVertical);
-			IsOpen  = false;
-		} else
-		{
-			transform.position = new Vector3 (transform.position.x+DistHorizontal,transform.position.y+DistVertical);
-			IsOpen = true;
-		}
+        GameObject [] terminales = GameObject.FindGameObjectsWithTag("Terminal");
+
+        for(int i=0;i<terminales.Length;i++) {
+            Terminal t = terminales[i].GetComponent<Terminal>();
+            if(t.Switch == this){
+                t.MostrarActivo(estaActivo);
+            }
+        }
+
+
+        _anim.SetTrigger("Switch");
 	}
 }

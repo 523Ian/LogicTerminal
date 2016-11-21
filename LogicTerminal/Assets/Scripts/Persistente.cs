@@ -6,6 +6,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class Persistente : MonoBehaviour 
 {
+    public int NivelActual;
+
     public int Niveles = 2;
     public string Nombre;
 

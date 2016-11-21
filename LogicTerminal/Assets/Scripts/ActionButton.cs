@@ -3,27 +3,9 @@ using System.Collections;
 
 public class ActionButton : MonoBehaviour 
 {
-	public Terminal TerminalActual;
-
-	void Start () {
-		StartCoroutine (Desactivar ());
-	}
-	
-	void Update () {
-	
-	}
-
-	IEnumerator Desactivar()
+	public void UsarTerminal()
 	{
-		yield return new WaitForSeconds (0.3f);
-		gameObject.SetActive (false);
-	}
-
-
-	public void ActivarTerminal()
-	{
-		if (TerminalActual != null) {
-			TerminalActual.SwitchPuerta ();
-		}
+        DetectorTerminales detector = GameObject.FindGameObjectWithTag("Player").GetComponent<DetectorTerminales>();
+        detector.UsarTerminal();
 	}
 }

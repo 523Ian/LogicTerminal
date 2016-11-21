@@ -4,75 +4,51 @@ using System.Collections;
 public class Terminal : MonoBehaviour 
 {
 	SpriteRenderer _rend;
+    bool _estaActivo;
 
-	public GameObject puerta;
-	bool isInside = false;
-	public Switch Switch;
-	public GameObject ActionButton;
-	public GameObject Trap;
-	public GameObject Laser;
-
-	public Sprite Activo;
-	public Sprite Inactivo;
-
-	public bool HayTrampa;
-	public bool HayLaser;
-	public bool LaserActivo;
+    public Switch Switch;
+	public Sprite SpriteActivo;
+	public Sprite SpriteInactivo;
 
 
 	void Start () 
 	{
 		_rend = GetComponent<SpriteRenderer> ();
-
-		ActionButton = GameObject.FindGameObjectWithTag ("BotonUsar");
-		LaserActivo = true;
+        _estaActivo = false;
 	}
 	
 	void Update () 
 	{
-        if (Switch.IsOpen) {
-			_rend.sprite = Activo;
-		} else {
-			_rend.sprite = Inactivo;
-		}
-
 	} 	 
 
 	void OnTriggerEnter2D(Collider2D c)
 	{
 		if (c.gameObject.tag == "Player") {
-			isInside = true;
-			ActionButton.SetActive (true);
-			ActionButton.GetComponent<ActionButton> ().TerminalActual = this;
-
+            c.GetComponent<DetectorTerminales>().TerminalActual = this;
 		}
 	}
 	void OnTriggerExit2D(Collider2D c)
 	{
 		if (c.gameObject.tag == "Player") {
-			isInside = false;
-			ActionButton.SetActive (false);
-			ActionButton.GetComponent<ActionButton> ().TerminalActual = null;;
+            c.GetComponent<DetectorTerminales>().TerminalActual = null;
 		}
 	}
+
+
 
 	public void SwitchPuerta()
 	{
-		if (isInside) {
-			Switch.SwitchDoor ();
+        _estaActivo = ! _estaActivo;
 
-			if (HayTrampa) {
-				Destroy (Trap);
-			}
-			if (HayLaser) {
-				if (LaserActivo) {
-					Laser.SetActive (false);
-					LaserActivo = false;
-				} else {
-					Laser.SetActive (true);
-					LaserActivo = true;
-				}
-			}
-		}
+        _rend.sprite = _estaActivo ? SpriteActivo : SpriteInactivo;
+
+        Switch.HacerSwitch(_estaActivo);
 	}
+
+
+    public void MostrarActivo(bool estaActivo)
+    {
+        _estaActivo = estaActivo;
+        _rend.sprite = _estaActivo ? SpriteActivo : SpriteInactivo;
+    }
 }

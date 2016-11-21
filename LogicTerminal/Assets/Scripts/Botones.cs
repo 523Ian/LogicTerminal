@@ -19,9 +19,20 @@ public class Botones : MonoBehaviour
 
 
 
-	public void Reset(string Escena)
+	public void Reset()
 	{
-		SceneManager.LoadScene (Escena);
+        int nivelActual = Persistente.instancia.NivelActual;
+
+        string nombreNivel = "Level_" + nivelActual;
+
+        SceneManager.UnloadScene(nombreNivel);
+        SceneManager.LoadScene(nombreNivel, LoadSceneMode.Additive);
+
+
+
+
+
+//		SceneManager.LoadScene (Escena);
 	}
 
 
