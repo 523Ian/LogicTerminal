@@ -4,12 +4,14 @@ using UnityEngine.SceneManagement;
 
 public class Trampa : MonoBehaviour {
 
-	public GameObject Trap;
-	public string Escena;
+
+	int nivelActual = Persistente.instancia.NivelActual;
+
+	public GameObject ObjetoTrampa;
+
 
 	void Start () 
 	{
-		StartCoroutine (Desactivar ());
 	}
 
 	void Update () {
@@ -19,20 +21,17 @@ public class Trampa : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D c)
 	{
 		if (c.gameObject.tag == "Player") {
-			Trap.SetActive (true);
 			StartCoroutine (Reiniciar ());
-
 		}
-	}
-
-	IEnumerator Desactivar()
-	{
-		yield return new WaitForSeconds (0.3f);
-		Trap.SetActive (false);
 	}
 	IEnumerator Reiniciar()
 	{
-		yield return new WaitForSeconds (3);
-		SceneManager.LoadScene (Escena);
+		string nombreNivel = "Level_" + nivelActual;
+		ObjetoTrampa.SetActive (true);
+
+		yield return new WaitForSeconds (3f);
+
+		SceneManager.UnloadScene(nombreNivel);
+		SceneManager.LoadScene(nombreNivel, LoadSceneMode.Additive);
 	}
 }

@@ -4,7 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class Pinchos : MonoBehaviour 
 {
-	public string Escena;
+	int nivelActual = Persistente.instancia.NivelActual;
+
+
 	void Start () 
 	{
 	
@@ -17,7 +19,10 @@ public class Pinchos : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D c)
 	{
-		if (c.gameObject.tag == "Player")
-		SceneManager.LoadScene (Escena);
+		if (c.gameObject.tag == "Player") {
+			string nombreNivel = "Level_" + nivelActual;
+			SceneManager.UnloadScene (nombreNivel);
+			SceneManager.LoadScene (nombreNivel, LoadSceneMode.Additive);
+		}
 	}
 }

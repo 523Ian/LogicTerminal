@@ -49,6 +49,9 @@ public class mover : MonoBehaviour
 
 		if (_ladder && !_walking) {	// esta en escalera			
 			transform.Translate (0, vely, 0);
+			_rb.gravityScale = 0;
+		} else {
+			_rb.gravityScale = 1;
 		}
 	}
 
@@ -97,7 +100,6 @@ public class mover : MonoBehaviour
 		if (CanEnter) {
 			_walking = false;
 			_ladder = true;
-			_rb.gravityScale = 0;
 			_rb.isKinematic = true;
 		} else {
 			SalirEscalera ();
