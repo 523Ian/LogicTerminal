@@ -2,9 +2,8 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class Trampa : MonoBehaviour {
-
-
+public class Trampa : MonoBehaviour 
+{
 	int nivelActual = Persistente.instancia.NivelActual;
 
 	public GameObject ObjetoTrampa;
@@ -21,7 +20,7 @@ public class Trampa : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D c)
 	{
 		if (c.gameObject.tag == "Player") {
-			StartCoroutine (Reiniciar ());
+			
 		}
 	}
 	IEnumerator Reiniciar()

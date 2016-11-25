@@ -24,19 +24,19 @@ public class Terminal : MonoBehaviour
 	void OnTriggerEnter2D(Collider2D c)
 	{
 		if (c.gameObject.tag == "Player") {
-            c.GetComponent<DetectorTerminales>().TerminalActual = this;
+            c.GetComponent<DetectorTerminales>().AnhadirTerminal(this);
 		}
 	}
 	void OnTriggerExit2D(Collider2D c)
 	{
 		if (c.gameObject.tag == "Player") {
-            c.GetComponent<DetectorTerminales>().TerminalActual = null;
+            c.GetComponent<DetectorTerminales>().QuitarTerminal(this);
 		}
 	}
 
 
 
-	public void SwitchPuerta()
+	public void UsarSwitch()
 	{
         _estaActivo = ! _estaActivo;
 
