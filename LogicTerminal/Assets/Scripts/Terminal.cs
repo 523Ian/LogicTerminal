@@ -40,7 +40,7 @@ public class Terminal : MonoBehaviour
 	{
         _estaActivo = ! _estaActivo;
 
-        _rend.sprite = _estaActivo ? SpriteActivo : SpriteInactivo;
+		_rend.sprite = _estaActivo ? SpriteActivo : SpriteInactivo;
 
         Switch.HacerSwitch(_estaActivo);
 	}
