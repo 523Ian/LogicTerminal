@@ -19,11 +19,11 @@ public class mover : MonoBehaviour
 
 
 
+
+
 	void Start () 
 	{
-        
 		_rb  = GetComponent<Rigidbody2D>();
-        _gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 
 		_canJump = true;
 		_walking = true;
@@ -34,7 +34,6 @@ public class mover : MonoBehaviour
 		_dirx = 0;
 		_diry = 0;
 
-        transform.position = _gc.PuntoInicio.position;
 	}
 
 
@@ -58,6 +57,8 @@ public class mover : MonoBehaviour
 		} else {
 			_rb.gravityScale = 1;
 		}
+
+
 	}
 
 
@@ -133,9 +134,4 @@ public class mover : MonoBehaviour
 		_rb.gravityScale = 1;
 		_rb.isKinematic = false;
 	}
-
-    public void VolverPuntoInicio()
-    {
-        transform.position = _gc.PuntoInicio.position;
-    }
 }

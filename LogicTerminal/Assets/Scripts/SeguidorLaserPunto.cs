@@ -9,6 +9,8 @@ public class SeguidorLaserPunto : MonoBehaviour
 
     public Transform Punto;
 
+	public int escena;
+
 	void Start () 
     {
         _rend = GetComponent<LineRenderer>();
@@ -48,15 +50,7 @@ public class SeguidorLaserPunto : MonoBehaviour
 
     IEnumerator Reiniciar()
     {
-        int nivel = Persistente.instancia.NivelActual;
-
-        string nombreNivel = "Level_" + nivel;
-
         yield return new WaitForSeconds (3f);
-
-        GameObject.FindGameObjectWithTag("Player").GetComponent<mover>().VolverPuntoInicio();
-
-        SceneManager.UnloadScene(nombreNivel);
-        SceneManager.LoadScene(nombreNivel, LoadSceneMode.Additive);
+		SceneManager.LoadScene ("Level_" + escena);
     }
 }

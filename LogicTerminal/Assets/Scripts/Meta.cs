@@ -4,11 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class Meta : MonoBehaviour 
 {
-	public string NameScene;
+	public int SiguienteNivel;
+
 	void OnTriggerEnter2D(Collider2D c)
 	{
-		if (c.tag == "Player") {
-			SceneManager.LoadScene (NameScene);
-		}
+		SceneManager.LoadScene ("Level_" + SiguienteNivel);
 	}
 }
